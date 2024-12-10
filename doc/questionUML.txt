@@ -1,2 +1,23 @@
 Ecrire ici votre réponse à la question UML.
 
+Modèle UML de la Figure 2
+Avantages :
+
+	Simplicité : Le modèle est plus simple et direct, avec des classes Event, RepetitiveEvent, et FixedTerminationEvent qui héritent de Event.
+	Lisibilité : Facile à comprendre et à implémenter.
+
+Inconvénients :
+
+	Rigidité : Moins flexible pour ajouter de nouvelles fonctionnalités ou types d'événements.
+	Redondance : Certaines propriétés et méthodes peuvent être redondantes entre les classes.
+
+Modèle UML Figure 3
+Avantages :
+
+	Flexibilité : Plus flexible pour ajouter de nouvelles fonctionnalités ou types d'événements grâce à l'utilisation de compositions et d'agrégations.
+	Extensibilité : Facilite l'ajout de nouvelles règles de répétition et de terminaison.
+
+Inconvénients :
+
+	Complexité : Plus complexe à comprendre et à implémenter.
+Performance : Peut introduire une surcharge de performance due à la gestion des relations entre les objets.
