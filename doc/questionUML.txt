@@ -2,7 +2,7 @@ Ecrire ici votre réponse à la question UML:
 
 Premier diagramme :
 
-	Avantages : Simple et direct. Les événements récurrents et leurs exceptions sont gérés de manière centralisée avec les classes Repetition et Termination. Facile à comprendre et à maintenir.
+	Avantages : Simple et direct. Les événements répétitifs et leurs exceptions sont gérés de manière centralisée avec les classes Repetition et Termination. Facile à comprendre et à maintenir.
 
 	Inconvénient : Moins flexible si des types d'événements plus complexes sont nécessaires.
 
@@ -15,3 +15,4 @@ Deuxième diagramme :
 Conclusion :
 
 	Le premier diagramme est plus simple, adapté à des cas basiques. Le deuxième diagramme est plus structuré et flexible, idéal pour des systèmes avec des événements plus diversifiés.
+	Le premier diagramme est donc plus adapté à notre situation.
