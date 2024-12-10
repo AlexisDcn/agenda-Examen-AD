@@ -1,23 +1,17 @@
-Ecrire ici votre réponse à la question UML.
+Ecrire ici votre réponse à la question UML:
 
-Modèle UML de la Figure 2
-Avantages :
+Premier diagramme :
 
-	Simplicité : Le modèle est plus simple et direct, avec des classes Event, RepetitiveEvent, et FixedTerminationEvent qui héritent de Event.
-	Lisibilité : Facile à comprendre et à implémenter.
+	Avantages : Simple et direct. Les événements récurrents et leurs exceptions sont gérés de manière centralisée avec les classes Repetition et Termination. Facile à comprendre et à maintenir.
 
-Inconvénients :
+	Inconvénient : Moins flexible si des types d'événements plus complexes sont nécessaires.
 
-	Rigidité : Moins flexible pour ajouter de nouvelles fonctionnalités ou types d'événements.
-	Redondance : Certaines propriétés et méthodes peuvent être redondantes entre les classes.
+Deuxième diagramme :
 
-Modèle UML Figure 3
-Avantages :
+	Avantages : Utilise l'héritage pour spécialiser les types d'événements (répétitifs et à terminaison fixe). Plus flexible et extensible, mieux pour des systèmes plus complexes avec des événements variés.
 
-	Flexibilité : Plus flexible pour ajouter de nouvelles fonctionnalités ou types d'événements grâce à l'utilisation de compositions et d'agrégations.
-	Extensibilité : Facilite l'ajout de nouvelles règles de répétition et de terminaison.
+	Inconvénient : L'héritage peut compliquer la gestion du code et rendre le système plus complexe.
 
-Inconvénients :
+Conclusion :
 
-	Complexité : Plus complexe à comprendre et à implémenter.
-Performance : Peut introduire une surcharge de performance due à la gestion des relations entre les objets.
+	Le premier diagramme est plus simple, adapté à des cas basiques. Le deuxième diagramme est plus structuré et flexible, idéal pour des systèmes avec des événements plus diversifiés.
